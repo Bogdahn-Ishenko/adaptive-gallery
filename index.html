@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="./assets/fonts/fonts/TTLakes/stylesheet.css">
+<link rel="stylesheet" href="style.css">
+    <title>Слайдер</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title">
+                Ремонт техники различных брендов
+            </h1>
+        </header>
+ 
+    <div class="swipper__wrapper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap-1.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap-2.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap-4.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap-5.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap-3.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap-6.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap-7.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-logo">
+                            <img src="./assets/brands-logo/Bitmap.png" alt="">
+                        </div>
+                        <a class="swiper-slide__button" href="#"><img src="./assets/ico/go.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        spaceBetween: 16,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+      </script>
+</body>
+</html>
