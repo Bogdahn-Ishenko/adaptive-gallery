@@ -10,11 +10,10 @@ const brandContainerWidth = brandContainer.offsetWidth;
 
 function toggleShortFull(condition){
     const brandContainerWidth = brandContainer.offsetWidth;
-    const columns = Math.floor(brandContainerWidth / (brands[0].offsetWidth + 27));
+    const columns = Math.floor(brandContainerWidth / (brands[0].offsetWidth + 25));
     const visibleCardMin = columns * 2;
-    console.log(brands.length);
-    console.log(visibleCardMin);
-    if(brands.length <= visibleCardMin){
+
+    if(brands.length < visibleCardMin){
         toggleBrandListButton.style.display = 'none';
     }
     else{

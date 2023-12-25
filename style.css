@@ -18,9 +18,8 @@ a{
     display: flex;
     flex-flow: column nowrap;
     gap: 16px;
-    width: 320px;
+    width: 100%;
     overflow: hidden;
-    /* border: 5px solid #58ec62; */
     position: relative;
 }
 .header{
@@ -55,16 +54,14 @@ a{
 }
 .swiper-container{
     margin: 16px 0 0 16px;
-    width: 240px;
-    /* border: 5px solid #5876ec; */
 }
 .card{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
+    width: 240px;
     height: 72px; 
-
     border-radius: 6px;
     border: 1px solid #EAEAEA;
     background: #FFF;
@@ -142,7 +139,7 @@ display: flex;
 }
 /* sec media */
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     /* .brand-gallery__inner{
         grid-template-columns: repeat(auto-fit, 240px);
     } */
@@ -157,10 +154,11 @@ display: flex;
         display: none;
     }
     .wrapper{
-        width: 320px;
+        width: 100%;
     }
 }
-@media screen and (min-width: 321px){
+
+@media screen and (min-width: 768px){
     .header{
         padding-left : 24px;
         padding-right: 24px;
